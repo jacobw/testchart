@@ -3,6 +3,18 @@ entries:
   testchart:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2025-04-01T07:53:40.856864716Z"
+    description: A Helm chart for Kubernetes
+    digest: f7d1f10bce2a4682d831b720d5d9c52c731b20c412093ed6447c21b93ce8106d
+    maintainers:
+    - name: jacobw
+    name: testchart
+    type: application
+    urls:
+    - https://github.com/jacobw/testchart/releases/download/testchart-0.1.9/testchart-0.1.9.tgz
+    version: 0.1.9
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2025-04-01T07:45:26.458125278Z"
     description: A Helm chart for Kubernetes
     digest: 7c267826e47366dfe7f92d9d52b206dc1e3035568d398ba8629d358808a85583
@@ -37,4 +49,4 @@ entries:
     urls:
     - https://github.com/jacobw/testchart/releases/download/testchart-0.1.4/testchart-0.1.4.tgz
     version: 0.1.4
-generated: "2025-04-01T07:45:26.458138883Z"
+generated: "2025-04-01T07:53:40.856887388Z"
