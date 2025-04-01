@@ -41,11 +41,8 @@ jobs:
         run: |
           shopt -s nullglob
           for pkg in .cr-release-packages/*; do
-            echo pkg: $pkg
             if [ -z "${pkg:-}" ]; then
-              echo breaking
               break
             fi
             helm push "${pkg}" "oci://ghcr.io/${GITHUB_REPOSITORY_OWNER}/charts"
-            echo Pushed oci
           done
