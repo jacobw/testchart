@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   name: {{ include "testchart.fullname" . }}
   labels:
+    testlabel: testvalue
     {{- include "testchart.labels" . | nindent 4 }}
 spec:
   {{- if not .Values.autoscaling.enabled }}
